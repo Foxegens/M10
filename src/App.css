@@ -1,4 +1,4 @@
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 400px) {
   #features {
     padding: 20px;
     width: 111%;
@@ -8,6 +8,7 @@
   #testimonials,
   #team,
   #contact,
+  #header,
   #footer {
     width: 111%;
   }
