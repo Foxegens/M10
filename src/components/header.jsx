@@ -15,7 +15,7 @@ export const Header = (props) => {
                   href='#services'
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                   <p>{props.data ? props.data.button : "loading..."}</p>
+                 {props.data ? props.data.button : "loading..."}
                 </a>{' '}
               </div>
             </div>
