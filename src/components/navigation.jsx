@@ -28,22 +28,22 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#about' className='page-scroll'>
-                О нас
+              {props.data ? props.data.button1 : 'Loading'}
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Наши услуги
+              {props.data ? props.data.button2 : 'Loading'}
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Наши услуги 2
+              {props.data ? props.data.button3 : 'Loading'}
               </a>
             </li>
             <li>
               <a href='#contact' className='page-scroll'>
-                Контакты
+              {props.data ? props.data.button4 : 'Loading'}
               </a>
             </li>
           </ul>

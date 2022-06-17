@@ -1,10 +1,19 @@
-{
+{ 
+  "Navigation": {
+  "button1": "О нас",
+  "button2": "Наши услуги",
+  "button3": "Наши услуги 2",
+  "button4": "Контакты"
+  },
   "Header": {
     "title": "Мы - компания М-10",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+    "button": "Наши услуги"
   },
   "About": {
+    "title": "O нас",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title2": "Почему Вам стоит выбрать нас?",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",

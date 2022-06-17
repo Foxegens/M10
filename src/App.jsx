@@ -5,6 +5,7 @@ import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -22,13 +23,13 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      <Navigation data={landingPageData.Navigation} />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>
       <Contact data={landingPageData.Contact} />
-      <Contact data={landingPageData.Footer} />
+      <Footer data={landingPageData.Footer} />
     </div>
   );
 };
