@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a href='#page-top'>
-          <img width="60px" src="img/main-logo.png" alt='logo' />
+          <img width="60px" src={props.data ? props.data.logo : "loading..."} alt='logo' />
           </a>{' '}
         </div>
 

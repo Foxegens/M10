@@ -1,5 +1,6 @@
 { 
   "Navigation": {
+  "logo": "img/main-logo.png",
   "button1": "О нас",
   "button2": "Наши услуги",
   "button3": "Наши услуги 2",
