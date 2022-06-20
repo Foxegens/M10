@@ -3,8 +3,9 @@
   "logo": "img/main-logo.png",
   "button1": "О нас",
   "button2": "Наши услуги",
-  "button3": "Наши услуги 2",
-  "button4": "Контакты"
+  "button3": "Контакты",
+  "button4": "Оплата",
+  "payment": "https://m10service.1pay.by/shop"
   },
   "Header": {
     "title": "Мы - компания М-10",
