@@ -29,7 +29,8 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery": [
+  "Gallery": 
+  [
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/01-large.jpg",
@@ -59,8 +60,8 @@
   "Services": [
     {
       "icon": "img/services/banquet.png",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Банкетный зал",
+      "text": "Загородный зал торжеств  с интересной планировкой для проведения мероприятий разного уровня и формата. Вкусная кухня и традиционное белорусское гостеприимство, качественное обслуживание и индивидуальный подход к каждому."
     },
     {
       "icon": "img/services/hostel.png",
@@ -69,8 +70,8 @@
     },
     {
       "icon": "img/services/sauna.png",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Русская баня на дровах",
+      "text": "Приглашаем посетить нашу баню люкс. Это место для тех, кто ищет настоящую русскую баню. Парная топится исключительно дровами, есть отдельная комната отдыха и большой бассейн."
     },
     {
       "icon": "img/services/windows.png",
