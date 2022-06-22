@@ -66,7 +66,7 @@
     {
       "icon": "img/services/hostel.png",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Прекрасный вариант размещения по весьма привлекательной цене! За приемлемую цену вы сможете остановиться в наших современных, чистых и удобных номерах. "
     },
     {
       "icon": "img/services/sauna.png",
@@ -75,13 +75,13 @@
     },
     {
       "icon": "img/services/windows.png",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Надежные окна ПВХ от производителя",
+      "text": "Качество, проверенное временем, и безупречный сервис от стабильной компании. Собственное производство, монтаж по ГОСТ, полная гарантия. Гарантированно низкие цены."
     },
     {
       "icon": "img/services/sto.png",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Диагностика и ремонт подвески, шиномонтаж, ремонт тормозной системы, замена двигателя. Корпоративное обслуживание и ремонт авто."
     }
   ]
 }
