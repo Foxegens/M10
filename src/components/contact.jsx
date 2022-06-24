@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import emailjs from 'emailjs-com'
 
 const initialState = {
   name: '',
@@ -18,19 +17,6 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(name, email, message)
-    emailjs
-      .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-          clearState()
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
   }
   return (
     <div>
@@ -101,7 +87,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-map-marker'></i> Адрес
                 </span>
-                ул. Василия, Беларусь
+                д.Посеничи ул.Парковая 3а
               </p>
             </div>
             <div className='contact-item'>
@@ -109,7 +95,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-phone'></i> Телефон
                 </span>{' '}
-                +375-29-123-45-67
+                +375 29 33 866
               </p>
             </div>
             <div className='contact-item'>
@@ -117,7 +103,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                example@gmail.com
+                m10servise@gmail.com
               </p>
             </div>
           </div>
